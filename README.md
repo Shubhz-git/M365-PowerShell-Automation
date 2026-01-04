@@ -1,20 +1,22 @@
-# M365-PowerShell-Automation
-🚀 Microsoft 365 PowerShell Automation
-Description: A collection of production-ready PowerShell scripts for managing M365 tenants.
+# Microsoft 365 Automation with PowerShell
 
-🛠 Key Features
-User Lifecycle: Bulk user creation from CSV and automated offboarding.
+Automates Microsoft 365 administrative tasks including:
 
-Teams Provisioning: Scripted creation of Teams with predefined channels and tabs.
+- User management
+- License assignment
+- Teams provisioning
+- Reporting
 
-Security Auditing: Reporting on users with MFA disabled.
+## Folder Structure
 
-📋 Prerequisites
-PowerShell 7.x
+- `Setup/` : PowerShell automation scripts
+- `Docs/` : Documentation (installation, usage)
+- `Reports/` : Generated reports
+- `Logs/` : Script execution logs
 
-Microsoft Graph SDK (Install-Module Microsoft.Graph)
+## Quick Start
 
-⚙️ Usage Example
-PowerShell
+1. Clone the repository:
+   ```powershell
+   git clone https://github.com/yourusername/M365-Automation.git
 
-./Scripts/Get-MfaReport.ps1 -ExportPath "./Reports/MfaStatus.csv"
